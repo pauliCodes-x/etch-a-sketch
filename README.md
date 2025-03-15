@@ -8,6 +8,7 @@ Etch A Sketch Challenge from The Odin Project [curriculum](https://www.theodinpr
 
 ### Notes on this project:
 
+- This is made mainly with CSS Flexbox & Grid.
 - Created a Figma sketch to plan the visual design.
 - Added Google Fonts for better typography.
 - The "Pick a Color" functionality is not yet implemented.
