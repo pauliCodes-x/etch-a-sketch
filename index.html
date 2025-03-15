@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Just+Me+Again+Down+Here&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <title>Etch a Sketch</title>
+</head>
+<body>
+    <h1 class="title">Etch a Sketch</h1>
+
+    <div id="wrapper">
+
+        <div class="button-container">
+            <button id="fluid" onclick="toggleMode()">Fluid Mode</button>
+            <button id="rgb-mode" onclick="toggleColor()">RGB Mode</button>
+            <button id="pick-color">Pick a Color</button>
+
+            <button id="grid-small-16">16 x 16</button>
+            <button id="grid-medium-32">32 x 32</button>
+            <button id="grid-large-64">64 x 64</button>
+        
+        </div>
+
+        <div id="container"></div>
+        <div>
+            <button id="eraser">Eraser</button>
+            <button id="reset">Reset</button>
+        </div>
+
+    </div>
+
+    <footer class="attribution">
+        <p>🌚 Crafted by <a href="https://github.com/pauliCodes-x" target="_blank" title="pauliCodes-x Github">Pauli</a> 🌠</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
